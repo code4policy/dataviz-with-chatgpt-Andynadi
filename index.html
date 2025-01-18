@@ -1,1 +1,23 @@
-<!-- Your HTML goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boston 311 Calls - Horizontal D3 Visualization</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <h1>Top 10 Reasons for Boston 311 Calls in 2023</h1>
+  <h2>Analyzing the reasons for Boston's 311 service requests</h2>
+  <div class="chart">
+    <svg id="barChart" width="900" height="600"></svg>
+  </div>
+  <button id="showAllButton">Show All Reasons</button>
+  <footer>
+    Data source: <a href="https://data.boston.gov/dataset/311-service-requests" target="_blank">Boston 311 Service Requests (2023)</a>.<br>
+    Chart authored by Andy Nadiradze.
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
